@@ -1,0 +1,18 @@
+@import "tailwindcss";
+/* Hide scrollbar for all scrollable elements */
+* {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  *::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, and Opera */
+  }
+@theme{
+    --color-primary: #D13CA0;
+    --color-primary-light: #f5d3ea;
+    --color-background:#F8F8F8;
+    --color-background-dark:#151020;
+    --color-background-dark2:#D13CA01F;
+    --color-filter:brightness(0) invert(1) sepia(1) saturate(5000%) hue-rotate(280deg);
+}
